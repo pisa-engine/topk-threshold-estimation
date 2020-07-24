@@ -8,8 +8,8 @@ for your own papers.
 Antonio Mallia, Michal Siedlaczek, Mengyang Sun, Torsten Suel: **A Comparison of Top-k Threshold Estimation Techniques for Disjunctive Query Processing.** In Proc. CIKM, 2020.
 
 ```
-@inproceedings{mm+19-ecir,
- author = {Mallia, Antonio and Siedlaczek, Michal and Mengyang, Sun and Suel, Torsten},
+@inproceedings{msss+20-cikm,
+ author = {Mallia, Antonio and Siedlaczek, Michal and Sun, Mengyang and Suel, Torsten},
  title = {A Comparison of Top-k Threshold Estimation Techniques for Disjunctive Query Processing},
  booktitle = {Proc. CIKM},
  year = {2020},
