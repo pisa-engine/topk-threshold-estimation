@@ -1,2 +1,17 @@
 # Top-k Threshold Estimation
-Top-k Threshold Estimation Techniquesfor Disjunctive Query Processing
+A Comparison of Top-k Threshold Estimation Techniques for Disjunctive Query Processing
+
+Welcome. This repository contains the required code to reproduce the experiments from
+the following paper. We request you cite this work if you decide to use our implementation
+for your own papers.
+
+Antonio Mallia, Michal Siedlaczek, Mengyang Sun, Torsten Suel: **A Comparison of Top-k Threshold Estimation Techniques for Disjunctive Query Processing.** In Proc. CIKM, 2020.
+
+```
+@inproceedings{mm+19-ecir,
+ author = {Mallia, Antonio and Siedlaczek, Michal and Mengyang, Sun and Suel, Torsten},
+ title = {A Comparison of Top-k Threshold Estimation Techniques for Disjunctive Query Processing},
+ booktitle = {Proc. CIKM},
+ year = {2020},
+}
+```
