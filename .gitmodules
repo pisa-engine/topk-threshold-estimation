@@ -1,0 +1,6 @@
+[submodule "pisa"]
+	path = pisa
+	url = https://github.com/pisa-engine/pisa
+[submodule "predict-wand-thres"]
+	path = predict-wand-thres
+	url = https://github.com/mpetri/predict-wand-thres
