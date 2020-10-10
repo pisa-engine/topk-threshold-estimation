@@ -12,7 +12,7 @@ args = parser.parse_args()
 dropped_terms = set(line.rstrip() for line in open(args.dropped))
 terms = [line.rstrip().rstrip() for line in open(args.terms, 'r')]
 
-print("Dropping {} of {} terms.", len(dropped_terms), len(terms))
+print("Dropping {} of {} terms.".format(len(dropped_terms), len(terms)))
 
 with open(args.output, "w") as terms_file:
     for i, term in enumerate(terms):
