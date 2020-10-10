@@ -11,7 +11,7 @@ Antonio Mallia, Michal Siedlaczek, Mengyang Sun, Torsten Suel: **A Comparison of
 2. [Quantile](Quantile.md)
 3. [BLR](BLR.md)
 4. [Sampling](Sampling.md)
-
+5. [Hybrid](Hybrid.md)
 
 
 ```
