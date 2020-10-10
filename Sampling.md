@@ -5,7 +5,7 @@ cd pisa/
 mkdir build/
 cd build/
 cmake ..
-make sample_inverted_index compress_inverted_index create_wand_data thresholds
+make sample_inverted_index compress_inverted_index create_wand_data thresholds lexicon
 ```
 
 **We assume you already have a canonical inverted index, if not please check the [official documentation](https://pisa.readthedocs.io/)** 
@@ -44,4 +44,11 @@ python script/drop_terms.py \
         -d /path/to/GOV2.0.05.dropped_terms \
         -t /path/to/GOV2.fwd.terms \
         -o /path/to/GOV2.fwd.0.05.terms
+```
+
+```sh
+cd pisa/build/
+./bin/lexicon build                  \
+        /path/to/GOV2.fwd.0.05.terms \
+        /path/to/GOV2.fwd.0.05.termlex
 ```
