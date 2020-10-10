@@ -31,5 +31,5 @@ parser.add_argument('-p', '--predicted', help='the predicted thresholds file', r
 
 args = parser.parse_args()
 
-print("O%: {}".format(compute_percentage_overestimate(args.exact, args.predicted)))
-print("MUF: {}".format(compute_muf(args.exact, args.predicted)))
+print("O%: {}".format(round(compute_percentage_overestimate(args.exact, args.predicted),2)))
+print("MUF: {}".format(round(compute_muf(args.exact, args.predicted), 2)))
