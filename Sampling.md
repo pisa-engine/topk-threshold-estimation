@@ -52,3 +52,17 @@ cd pisa/build/
         /path/to/GOV2.fwd.0.05.terms \
         /path/to/GOV2.fwd.0.05.termlex
 ```
+
+## Compute thresholds
+
+```sh
+./bin/thresholds                               \
+        -e block_simdbp                        \
+        -i /path/to/GOV2.url.0.05.block_simdbp \
+        -w /path/to/GOV2.url.0.05.bm25.bmw     \
+        -q  /path/to/queries.txt               \
+        -s bm25                                \
+        -k 4                                   \
+        --terms /path/to/GOV2.fwd.0.05.termlex \
+        --stemmer porter2 > ./gov2.0.05.top4.thresholds
+```
