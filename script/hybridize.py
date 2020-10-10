@@ -7,7 +7,7 @@ import numpy as np
 def hybridize(first_method, second_method, output):
     with open(first_method, 'r') as first, open(second_method, 'r') as second, open(output, 'w+') as out:
         for (line1, line2) in zip(first, second):
-            	out.write(max(line1, line2)+"\n")
+            	out.write(max(line1, line2))
     
 parser = argparse.ArgumentParser(description='Hybridize two predictions method.')
 parser.add_argument('-f', '--first-method', help='the first method file', required=True)
